@@ -7,7 +7,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/primary_blue"
+        android:background="#00BCD4"
         android:elevation="6dp"
         android:padding="12dp">
 
@@ -21,7 +21,7 @@
                 android:id="@+id/imgLogo"
                 android:layout_width="36dp"
                 android:layout_height="36dp"
-                android:src="@drawable/logo"
+                android:src="@drawable/saa"
                 android:layout_marginEnd="10dp" />
 
             <LinearLayout
@@ -59,7 +59,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/background_gray">
+        android:background="@color/cardview_dark_background">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -73,14 +73,14 @@
                 android:text="Selamat datang di Materi Pertemuan 5 "
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="@color/text_dark"
+                android:textColor="#C51212"
                 android:layout_marginBottom="8dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Di halaman ini kita bisa mencoba fitur Toolbar, Option Menu, WebView dan Improvisasi dari animasi yang sudah saya buat sebelumnya di materi Pertemuan 5"
-                android:textColor="@color/text_gray"
+                android:textColor="#B42121"
                 android:layout_marginBottom="16dp"/>
 
             <LinearLayout
@@ -97,14 +97,14 @@
                     android:layout_height="wrap_content"
                     android:text="Fitur yang ada di Pertemuan 5 yaitu : "
                     android:textStyle="bold"
-                    android:textColor="@color/text_dark"
+                    android:textColor="#B45D5D"
                     android:layout_marginBottom="8dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="• Toolbar Custom\n• Option Menu\n• WebView\n• Tiru dan Improvisasi\n• Sub-menu (menu di dalam menu)"
-                    android:textColor="@color/text_gray"/>
+                    android:textColor="#CA7B7B"/>
             </LinearLayout>
 
         </LinearLayout>
