@@ -1,12 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <WebView
-        android:id="@+id/webView"
+    <!-- TOOLBAR -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="wrap_content"
+        android:background="#6200EE"
+        android:title="Pertemuan 5"
+        android:titleTextColor="#FFFFFF"/>
+
+    <!-- SCROLLVIEW -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Contoh ScrollView"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Konten panjang...\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btnWeb"
+                android:text="Buka WebView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Logout" />
+
+            <Button
+                android:id="@+id/btnLogout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pertemuan7" />
+
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

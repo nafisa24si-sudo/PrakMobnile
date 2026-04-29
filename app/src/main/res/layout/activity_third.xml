@@ -6,7 +6,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C3C874DC"
+    android:background="#C3E793E7"
     tools:context=".pertemuan_3.ThirdActivity">
 
     <TextView
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="108dp"
-        android:backgroundTint="#CA6AD0"
+        android:backgroundTint="#C932D1"
         android:ems="10"
         android:inputType="phone"
         android:text="kirim"
