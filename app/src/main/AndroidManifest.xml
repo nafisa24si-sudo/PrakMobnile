@@ -12,13 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GamesApps">
         <activity
-            android:name=".Pertemuan5.FifthActivity"
+            android:name=".Home.Pertemuan5.FifthActivity"
             android:exported="false" />
         <activity
-            android:name=".pertemuan7.SeventhActivity"
+            android:name=".Home.pertemuan7.SeventhActivity"
             android:exported="false" />
         <activity
-            android:name=".pertemuan7.SixthActivity"
+            android:name=".Home.pertemuan7.SixthActivity"
             android:exported="false" />
         <activity
             android:name=".AuthActivity"
@@ -27,20 +27,22 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".Pertemuan5.ToolbarActivity"
+            android:name=".Home.Pertemuan5.ToolbarActivity"
             android:exported="false" />
         <activity
-            android:name=".Pertemuan4.FourthActivity"
+            android:name=".Home.Pertemuan4.FourthActivity"
             android:exported="false" />
         <activity
-            android:name=".pertemuan_3.ThirdResultActivity"
+            android:name=".Home.pertemuan_3.ThirdResultActivity"
             android:exported="false" />
         <activity
-            android:name=".Pertemuan2.SecondActivity"
+            android:name=".Home.Pertemuan2.SecondActivity"
             android:exported="false" />
         <activity
-            android:name=".pertemuan_3.ThirdActivity"
+            android:name=".Home.pertemuan_3.ThirdActivity"
             android:exported="false" />
+        <activity android:name=".BaseActivity"
+            android:exported="false"/>
         <activity
             android:name=".SplashScreenActivity"
             android:exported="true">

@@ -1,4 +1,4 @@
-package com.example.gamesapps.Pertemuan2
+package com.example.gamesapps.Home.Pertemuan2
 fun main() {
     println("hai rekan reksn...")
     println("selamat datang di bahassa pemrogramamn Kotlin")

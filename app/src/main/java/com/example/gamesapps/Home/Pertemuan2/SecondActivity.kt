@@ -1,4 +1,4 @@
-package com.example.gamesapps.Pertemuan2
+package com.example.gamesapps.Home.Pertemuan2
 
 import android.os.Bundle
 import android.util.Log

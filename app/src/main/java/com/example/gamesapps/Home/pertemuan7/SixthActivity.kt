@@ -1,4 +1,4 @@
-package com.example.gamesapps.pertemuan7
+package com.example.gamesapps.Home.pertemuan7
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge

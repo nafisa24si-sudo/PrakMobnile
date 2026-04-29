@@ -1,4 +1,4 @@
-package com.example.gamesapps.Pertemuan4
+package com.example.gamesapps.Home.Pertemuan4
 
 import android.content.Intent
 import android.os.Bundle

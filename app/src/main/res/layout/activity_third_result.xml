@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#C3F2F4F8"
-    tools:context=".pertemuan_3.ThirdResultActivity">
+    tools:context=".Home.pertemuan_3.ThirdResultActivity">
 
     <ImageView
         android:id="@+id/imageView"

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF0F5"
+    tools:context=".Home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="32dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@android:drawable/ic_menu_today"
+            android:contentDescription="Home Icon"
+            app:tint="#FF69B4"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selamat Datang dihalaman More!"
+            android:textColor="#C2185B"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Ini adalah halaman utama aplikasi Anda. Mulailah menjelajahi materi melalui tombol navigasi di atas."
+            android:textAlignment="center"
+            android:textColor="#AD1457"
+            android:textSize="16sp"
+            android:alpha="0.7" />
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="32dp"
+            android:background="#F8BBD0" />
+
+    </LinearLayout>
+
+</FrameLayout>
