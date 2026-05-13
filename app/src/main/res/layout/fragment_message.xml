@@ -1,52 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFF0F5"
-    tools:context=".Home.HomeFragment">
+    tools:context=".Message.MessageFragment">
 
-    <LinearLayout
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:orientation="vertical"
-        android:padding="32dp">
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@android:drawable/ic_menu_today"
-            android:contentDescription="Home Icon"
-            app:tint="#FF69B4"
-            android:layout_marginBottom="24dp"/>
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:titleTextColor="@android:color/white" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Selamat Datang dihalaman messege!"
-            android:textColor="#C2185B"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+    </com.google.android.material.appbar.AppBarLayout>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="Ini adalah halaman utama aplikasi Anda. Mulailah menjelajahi materi melalui tombol navigasi di atas."
-            android:textAlignment="center"
-            android:textColor="#AD1457"
-            android:textSize="16sp"
-            android:alpha="0.7" />
 
-        <View
-            android:layout_width="150dp"
-            android:layout_height="2dp"
-            android:layout_marginTop="32dp"
-            android:background="#F8BBD0" />
+    <ListView
+        android:id="@+id/listMessageItems"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
-    </LinearLayout>
-
-</FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
