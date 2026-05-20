@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GamesApps">
         <activity
+            android:name=".SplashScreenActivity"
+            android:exported="false" />
+        <activity
             android:name=".Message.MessageAdapter"
             android:exported="false" />
         <activity
@@ -54,7 +57,7 @@
             android:name=".BaseActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashScreenActivity"
+            android:name=".pertemuan10.TenthActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
